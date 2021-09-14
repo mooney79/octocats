@@ -1,0 +1,78 @@
+/*
+Hey, Mikey, I Think He Likes It Mode
+Add 3 more Octocats to your web page. Use the Octodex at http://octodex.github.com if 
+you need some images, or draw your own and include them in your GitHub repository.
+
+Caffeinated Mode
+Try making your web page responsive when the browser is resized.
+
+*/
+* {
+  box-sizing: border-box;
+}
+
+img {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+a > img {
+  width: 500px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 15px;
+}
+
+.authors {
+  display: inline;
+  vertical-align: top;
+  padding: 0;
+}
+
+.authors img {
+  width: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  float: right;
+  border-width: 0px;
+  border-radius: 5px;
+}
+
+li {
+  display: inline-block;
+}
+
+span ~ a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: right;
+  display: inline-block;
+  color: black;
+  text-align: right;
+}
+
+.image-footer {
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 15px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+
+.image-caption {
+  display: inline;
+  text-align: right;
+  float: right;
+}
+
+.image-number {
+  font-size: 26px;
+  color: darkgray;
+  font-weight: bold;
+  margin-right: 200px;
+}
+
+/*# sourceMappingURL=main.css.map */
